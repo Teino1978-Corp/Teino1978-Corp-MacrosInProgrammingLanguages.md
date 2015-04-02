@@ -12,11 +12,11 @@ Macros in C are just glorified string substitution.
 
 
 // later on in code
-y = MAX(1,2)
+int y = MAX(1,2);
 // which is substituted into
-y = 1 > 2 ? 1 : 2
+y = 1 > 2 ? 1 : 2;
 // which compilers are smart enough to simplify to
-y = 2
+y = 2;
 ```
 
 
